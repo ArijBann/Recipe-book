@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipeBookShopingList';
+
+  hiddenShopping = true;
+  changeHidden(state : string){
+    if (state == 'recipe') this.hiddenShopping = true;
+    else this.hiddenShopping = false ;
+  }
 }
