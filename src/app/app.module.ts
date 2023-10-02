@@ -17,6 +17,8 @@ import { StartComponent } from './start/start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { RecipeService } from './recipes/recipe.service';
+import { AuthComponent } from './authentication/auth/auth.component';
+import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 
 
 
@@ -32,7 +34,9 @@ import { RecipeService } from './recipes/recipe.service';
     ShoppingEditComponent,
     DropdownDirective,
     StartComponent,
-    RecipeEditComponent
+    RecipeEditComponent,
+    AuthComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
    
